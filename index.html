@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo"> <img src="./Assets/75-756206_russian-premier-league-logo-png-transparent-png.png" alt="">
+        </div>
+        <ul>
+            <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li><a href="#slide"><i class="fa fa-info-circle" aria-hidden="true"></i>About</a></li>
+            <li><a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
+        </ul>
+        <i class="fa fa-cog" aria-hidden="true" onclick="myFunction_setting();"></i>
+    </nav>
+
+    <div id="btn-div-click" class="abc">
+        <button class="btn active" id="btn1"></button>
+        <button class="btn " id="btn2"></button>
+        <button class="btn" id="btn3"></button>
+        <button class="btn" id="btn4"></button>
+    </div>
+    <img src="./Assets/90735-animated-landscape-2560x1440-wallpaper.png" alt="" id="img">
+    <section id="slide">
+        <h1><i class="fa fa-info-circle" aria-hidden="true"></i> About</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque vel exercitationem aspernatur beatae, expedita
+            illum natus deleniti, ex incidunt quae nemo dolorum aliquam obcaecati. Earum voluptatem molestiae officiis
+            laudantium tempore cumque vero magnam! Dicta, accusantium a aperiam nesciunt, ducimus ut iusto in
+            dignissimos obcaecati laudantium deserunt voluptatum odio, culpa harum!
+            illum natus deleniti, ex incidunt quae nemo dolorum aliquam obcaecati. Earum voluptatem molestiae officiis
+            laudantium tempore cumque vero magnam! Dicta, accusantium a aperiam nesciunt, ducimus ut iusto in
+            dignissimos obcaecati laudantium deserunt voluptatum odio, culpa harum!
+            illum natus deleniti, ex incidunt quae nemo dolorum aliquam obcaecati. Earum voluptatem molestiae officiis
+            laudantium tempore cumque vero magnam! Dicta, accusantium a aperiam nesciunt, ducimus ut iusto in
+            dignissimos obcaecati laudantium deserunt voluptatum odio, culpa harum!
+            illum natus deleniti, ex incidunt quae nemo dolorum aliquam obcaecati. Earum voluptatem molestiae officiis
+            laudantium tempore cumque vero magnam! Dicta, accusantium a aperiam nesciunt, ducimus ut iusto in
+            dignissimos obcaecati laudantium deserunt voluptatum odio, culpa harum!
+        </p>
+        <img src="./Assets/75-756206_russian-premier-league-logo-png-transparent-png.png" alt="">
+    </section>
+    <!-- ACCOUNTS LINKS -->
+    <div class="box1" id="contact">
+        <div class="child-box">
+            <div class="icons">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </div>
+            <h2>Facebook</h2>
+            <div class="height"></div>
+        </div>
+        <div class="child-box">
+            <div class="icons">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+            <h2>Twitter</h2>
+            <div class="height"></div>
+        </div>
+        <div class="child-box">
+            <div class="icons">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+            <h2>Instagram</h2>
+            <div class="height"></div>
+        </div>
+        <div class="child-box">
+            <div class="icons">
+                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+            </div>
+            <h2>Pinterest</h2>
+            <div class="height"></div>
+        </div>
+
+    </div>
+    <!-- form -->
+    <section class="form" >
+
+        <form>
+            <img src="./Assets/75-756206_russian-premier-league-logo-png-transparent-png.png" alt="">
+            <div class="flex-form">
+                <input type="text" name="" id="name" placeholder="Name">
+                <p id="para"></p>
+            </div>
+            <div class="flex-form">
+                <input type="email" name="" id="email" placeholder="Email">
+                <p id="para-email"></p>
+
+            </div>
+            <div class="flex-form">
+                <textarea name="" id="query" placeholder="Message"></textarea>
+                <p id="para-content"></p>
+            </div>
+            <button type="submit" id="btn">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>ALL RIGHTS RESERVED <i class="fa fa-copyright" aria-hidden="true"></i>
+        </p>
+    </footer>
+    <script src="./component.js"></script>
+</body>
+
+</html>
