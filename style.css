@@ -317,6 +317,7 @@ footer {
 
     .box1 {
         display: block;
+        background-color: rgb(23, 49, 126);
     }
 
     .child-box {
